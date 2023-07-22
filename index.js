@@ -111,15 +111,15 @@ function generateREADME(answers) {
     * Follow me on Github at [${answers.githubUsername}] (http://github.com/${answers.githubUsername})`;
 }
 //writes file to README.md
-promptUser()
-    .then(function (answers) {
-        const README = generateREADME(answers);
+ promptUser()
+  .then(function (answers) {
+    const README = generateREADME(answers);
 
-        return writeFileAsync('sampleREADME.md', README);
-    })
-    .then(function () {
-        console.log("sampleREADME.md has been created!");
-    })
-    .catch(function (err) {
-        console.log(err);
-    });
+    return writeFileAsync('sampleREADME.md', README);
+  })
+  .then(function () {
+    console.log("sampleREADME.md has been created!");
+  })
+  .catch(function (err) {
+    console.log(err);
+  });
