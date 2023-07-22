@@ -58,8 +58,3 @@ If you followed tutorials, include links to those here as well.
 ## Questions
 
 * Follow me on Github at [Robbi19] (http://github.com/robbi19)
-
-
-## License 
-
-This project is covered under the MIT license. https://choosealicense.com/

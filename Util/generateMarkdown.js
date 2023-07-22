@@ -1,9 +1,9 @@
-//  Create a function that returns a license badge 
+// Create a function that returns a license badge
 // If there is no license, return an empty string
-function renderContributingSection(confirmContributers, data) {
-  if (!confirmContributers) {
+function renderContributingSection(confirmContributors, data) {
+  if (!confirmContributors) {
     return `
-  Thank you and showing interest in helping out; however, Unfortunately I can not accept contributions from third parties.
+  Thank you for making time and showing interest in helping out; however, Unfortunately I cannot accept contributions from third parties.
     `;
   } else {
     return `
@@ -68,7 +68,7 @@ function generateMarkdown(data) {
   # ${data.title}
   
   ${renderLicenseBadge(data.license)}
-  ## Table-of-Contents
+  ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
@@ -77,13 +77,13 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## [Description](#table-of-contents)
+  ## Description
   ${data.what}
   ${data.why}
   ${data.how}
-  ## [Installation](#table-of-contents)
+  ## Installation
   ${data.installation}
-  ## [Usage](#table-of-contents)
+  ## Usage
   ${data.usage}
   
   For more information on how to add screenshots for examples, visit the following website:
@@ -91,12 +91,12 @@ function generateMarkdown(data) {
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   ${renderLicenseSection(data.license)}
-  ## [Contributing](#table-of-contents)
+  ## Contributing
   
   ${renderContributingSection(data.confirmContributers, data.contribute)}
-  ## [Tests](#table-of-contents)
+  ## Tests
   ${data.test}
-  ## [Questions](#table-of-contents)
+  ## Questions
   Please contact me using the following links:
   [GitHub](https://github.com/${data.githubUsername})
   [Email: ${data.email}](mailto:${data.email})
