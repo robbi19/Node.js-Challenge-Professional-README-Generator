@@ -102,5 +102,4 @@ function generateMarkdown(data) {
   [Email: ${data.email}](mailto:${data.email})
 `;
 }
-
-module.exports = generateMarkdown;
+export default generateMarkdown;

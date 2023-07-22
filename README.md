@@ -8,7 +8,7 @@
 5. [Tests](#tests)
 6. [Credits](#credits)
 7. [Questions](#questions)
-8. [License](#license)
+
 
 
 # Description
