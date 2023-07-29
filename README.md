@@ -41,6 +41,9 @@ https://www.freecodecamp.org/news/how-to-install-node-js-and-npm-on-windows-2/
 
 
 ## Screenshots of Generator
+<img width="943" alt="Screenshot 2023-07-29 165155" src="https://github.com/robbi19/Node.js-Challenge-Professional-README-Generator/assets/128949831/30a6b460-8c3c-490b-aca9-de9f20823a12">
+
+https://drive.google.com/file/d/14FqVreLqoh64M6bUcx3ESEKhoEp_t2QH/view
 
 ## Contributor
 
